@@ -1,0 +1,95 @@
+body{
+    background: pink;
+    color:black;
+}   
+h1{
+    text-align: center;
+    color: white;
+}
+p{
+    color: black;
+}
+.box1{
+    background: yellow;
+    height: 300px;
+    width: 600px;
+    margin: 20px;
+}
+.box2{
+    background: green;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px
+    
+}
+.tulisanBox1{
+    text-align: center;
+    color: tomato;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.tulisanBox2{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold ;
+    text-transform: lowercase;
+    text-decoration: overline;
+}
+.link1{
+    font-size: 30pt;
+    text-align: center;
+}
+
+.link1:hover{
+    color: red;
+}
+.link1:link{
+    color: blue;
+}
+.link1:active{
+    color: green;
+}
+.paragraf1{
+    text-align: justify;
+}
+#garis1{
+    border-style: solid ;
+}
+#garis2{
+    border-style: dotted;
+}
+
+.kotak1{
+    background: blue ;
+    position: absolute;
+    left:40px;
+    padding: 10px;
+}
+.kotak2{
+    background: green ;
+    position: relative;
+    left:40px;
+    padding: 10px;
+}
+.kotak3{
+    background: red ;
+    position: static;
+    left:40px;
+    padding: 10px;
+}
+.kotak4{
+    background: whitesmoke ;
+    position: fixed;
+    left:40px;
+    padding: 10px;
+}
+ul.transport{
+    list-style-type: square;
+}
+ul.lokasi{
+    list-style-type: circle;
+}
